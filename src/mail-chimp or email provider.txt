@@ -1,0 +1,17 @@
+### mail Chimp or Email Provider: sign in or sign up free
+	https://mailchimp.com/
+
+	
+
+### Ajax MailChimp plugin::
+	https://github.com/scdoshi/jquery-ajaxchimp
+	
+	1) jquery-1.12.4.min.js (Update jquery not working)
+	2) jquery.ajaxchimp.min.js (INCLUDE This File)
+
+    Active js: 
+	$(document).ready(function($){
+	$(".mailchimp-form").ajaxChimp({
+		url: 'http://github.us4.list-manage.com/subscribe/post?u=0d93151d5d386005b3bf1709a&amp;id=f6f46bbe33'
+	    });
+	});
